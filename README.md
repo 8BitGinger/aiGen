@@ -6,14 +6,14 @@ This is a beginner-friendly AI tool built using OpenAI's API. It represents my f
 
 Homepage:
 
-![main](./src/Components/Assets/aiHomepage.png)
+![main](./client/src/Components/Assets/aiHomepage.png)
 
 Example of Generation:
 
-![generate](./src/Components/Assets/aiExample.png)
+![generate](./client/src/Components/Assets/aiExample.png)
 
 Example on Mobile:
-![mobile](./src/Components/Assets/aiMainMobile.png)
+![mobile](./client/src/Components/Assets/aiMainMobile.png)
 
 # Contact
 
