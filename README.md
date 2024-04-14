@@ -8,12 +8,13 @@ Homepage:
 
 ![main](./client/src/Components/Assets/aiHomepage.png)
 
-Example of Generation:
-
-![generate](./client/src/Components/Assets/aiExample.png)
-
 Example on Mobile:
+
 ![mobile](./client/src/Components/Assets/aiMainMobile.png)
+
+The Result:
+
+![example](./client/src/Components/Assets/aiPlaceholder.png)
 
 # Contact
 

@@ -38,8 +38,26 @@ export const ImageGenerator = () => {
 
   return (
     <div className="ai-image-generator">
-      <div className="header">
-        AI Image <span>Generator</span>
+      <div className="column">
+        <div className="header">
+          AI <span>Image Generator</span>
+        </div>
+        <div className="search-box">
+          <textarea
+            className="search-input"
+            type="text"
+            ref={inputRef}
+            placeholder="Describe What You Want to See!"
+          />
+          <div
+            className={loading ? 'button-disabled' : 'generate-btn'}
+            onClick={() => {
+              imageGenerator();
+            }}
+          >
+            Generate
+          </div>
+        </div>
       </div>
       <div className="img-loading">
         <div className="image">
@@ -53,22 +71,6 @@ export const ImageGenerator = () => {
           <div className={loading ? 'loading-text' : 'display-none'}>
             Loading...
           </div>
-        </div>
-      </div>
-      <div className="search-box">
-        <textarea
-          className="search-input"
-          type="text"
-          ref={inputRef}
-          placeholder="Describe What You Want to See!"
-        />
-        <div
-          className={loading ? 'button-disabled' : 'generate-btn'}
-          onClick={() => {
-            imageGenerator();
-          }}
-        >
-          Generate
         </div>
       </div>
     </div>

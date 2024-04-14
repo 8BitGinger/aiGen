@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Strait&display=swap');
 body {
   margin: 0;
-  font-family: 'Concert One', sans-serif;
+  font-family: 'Share Tech Mono', monospace;
   font-weight: 400;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: navy;
+  color: white;
   min-height: 100vh;
-  background: linear-gradient(to top, #8ca9d3, #f0eff4);
+  background: url(./Components/Assets/aiGenWallpaper.jpg);
+  background-size: cover;
 }
 
 code {
