@@ -1,6 +1,8 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # AI Image Generator
 
-This is a beginner-friendly AI tool built using OpenAI's API. It represents my first exploration into creating software powered by artificial intelligence. I'm excited to share it and learn from your feedback!
+Welcome to the world of AI-powered art! This is a beginner-friendly tool built using OpenAI's API, designed to turn your text descriptions into captivating images. Whether you're a seasoned artist or just starting out, this project lets you explore the creative potential of AI. It represents my first foray into building software with artificial intelligence, and I'm eager to share it with you! Get ready to bring your imagination to life and provide feedback to help shape this project's future.
 
 ## Screenshots
 
