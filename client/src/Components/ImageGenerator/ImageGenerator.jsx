@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import './ImageGenerator.css';
-import default_image from '../../Components/Assets/aiPlaceholder.png';
+import default_image from '../../Components/Assets/aiGenRobot.png';
 
 const API_KEY = import.meta.env.VITE_API_KEY;
 
@@ -50,7 +50,7 @@ export const ImageGenerator = () => {
             placeholder="Describe What You Want to See!"
           />
           <div
-            className={loading ? 'button-disabled' : 'generate-btn'}
+            className={loading ? null : 'generate-btn'}
             onClick={() => {
               imageGenerator();
             }}
